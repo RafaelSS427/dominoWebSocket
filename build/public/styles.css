@@ -1,0 +1,100 @@
+body{
+    background: #2f3d44;
+    font-family: 'Crimson Pro', serif;
+    /* font-size: 48px; */
+}
+
+#divMesaJug{
+    height: 400PX;
+    background: #008F39;
+    border: 2px solid white;
+}
+
+#divFichasJug {
+    display: flex;
+    overflow: auto;
+    position: absolute;
+    bottom: 15px;
+    border: 2px solid white;
+    width: 600px;
+    height: 150px;
+}
+
+.divFicha {
+    width: 80px;
+    height: 130px;
+    background: white;
+}
+
+#divSuperior {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    /* border: 1px solid black; */
+    top: 3px;
+    left: 9px;
+}
+
+#line{
+    position: relative;
+    width: 100%;
+    height: 0.5px;
+    top: 3.5px;
+    background-color: black;
+}
+
+#divInferior{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    /* border: 1px solid black; */
+    top: 7px;
+    left: 9px;
+}
+
+#divFichaMesa {
+    position: relative;
+    /* width: 80px;
+    height: 130px;
+    background: white; */
+    left: 325px;
+    top: 45px;
+}
+
+#divBotones{
+    position: relative;
+    width: 150px;
+    height: auto;
+    display: grid;
+    grid-template-rows: auto auto;
+    left: 613px;
+    top: 130px;
+}
+
+#divInfoFichas {
+    position: absolute;
+    color: white;
+    width: 220px;
+    height: auto;
+    /* border: 2px solid white; */
+    left: 570px;
+}
+
+#h1NombreJugador{
+    position: relative;
+    color: white;
+    left: 63px;
+}
+
+#h4TurnoJugador{
+    color: white;
+    position: absolute;
+    top: 55px;
+}
+
+#h2Mensaje{
+    position: absolute;
+    color: white;
+    bottom: 370px;
+    left: 300px;
+}
